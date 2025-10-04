@@ -1,1 +1,43 @@
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		String nombreUsuario;
+		String apellidosUsuario;
+		String direccionUsuario;
+		byte edadUsuario;
+		double alturaUsuario;
+		double pesoUsuario;
+		
+		System.out.println("Introduce tu nombre: ");
+		nombreUsuario = teclado.nextLine();
+		System.out.println("Introduce tus apellidos: ");
+		apellidosUsuario = teclado.nextLine();
+		System.out.println("Introduce tu dirección: ");
+		direccionUsuario = teclado.nextLine();
+		
+		System.out.println("Introduce tu edad: ");
+		edadUsuario = teclado.nextByte();
+		System.out.println("Introduce tu altura: ");
+		alturaUsuario = teclado.nextDouble();
+		System.out.println("Introduce tu peso: ");
+		pesoUsuario = teclado.nextDouble();
+		
+		
+		System.out.println("Nombre: " + nombreUsuario);
+		System.out.println("Apellidos: " + apellidosUsuario);
+		System.out.println("Direccion: " + direccionUsuario);
+		System.out.println("Edad: " + edadUsuario);
+		System.out.println("Altura: " + alturaUsuario);
+		System.out.println("Peso: " + pesoUsuario);
+		
+		
+	}
+
+}
 
